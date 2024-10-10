@@ -18,9 +18,9 @@ data_choice = st.sidebar.selectbox("Pilih data yang ingin ditampilkan:", ["Data 
 
 # Pilihan data
 if data_choice == "Data Harian":
-    data = day_data
+    data = data_day
 else:
-    data = hour_data
+    data = data_hour
 
 # Input dari pengguna
 st.sidebar.subheader("Filter Berdasarkan Waktu:")
