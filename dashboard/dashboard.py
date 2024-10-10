@@ -6,8 +6,8 @@ import seaborn as sns
 # Load data
 file_pathday = 'data/day.csv'  # Gantilah dengan path file aslimu
 file_pathhour = 'data/hour.csv'
-data = pd.read_csv(file_pathday)
-data = pd.read_csv(file_pathhour)
+data_day = pd.read_csv(file_pathday)
+data_hour = pd.read_csv(file_pathhour)
 
 # Title
 st.title('Dashboard Rental Sepeda')
