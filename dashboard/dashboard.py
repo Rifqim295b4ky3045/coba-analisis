@@ -12,6 +12,8 @@ data_hour = pd.read_csv(file_pathhour)
 # Title
 st.title('Dashboard Rental Sepeda')
 
+st.subheader('Bagaimana tren rental sepeda selama 2 tahun tersebut?')
+st.subheader('Adakah korelasi antara jumlah order rental dengan parameter lainnya?')
 # Sidebar untuk input pengguna
 st.sidebar.header('Pengaturan Visualisasi')
 data_choice = st.sidebar.selectbox("Pilih data yang ingin ditampilkan:", ["Data Harian", "Data Jam"])
